@@ -157,8 +157,18 @@ This generates well-formatted XML output:
   </head>
   <body>
     <outline text="Technology" title="Technology">
-      <outline text="Apple News" title="Apple News" xmlUrl="https://apple.com/rss" htmlUrl="https://apple.com" />
-      <outline text="Swift Blog" title="Swift Blog" xmlUrl="https://swift.org/rss" htmlUrl="https://swift.org" />
+      <outline
+        text="Apple News"
+        title="Apple News"
+        xmlUrl="https://apple.com/rss"
+        htmlUrl="https://apple.com"
+      />
+      <outline
+        text="Swift Blog"
+        title="Swift Blog"
+        xmlUrl="https://swift.org/rss"
+        htmlUrl="https://swift.org"
+      />
     </outline>
   </body>
 </opml>

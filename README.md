@@ -84,6 +84,7 @@ let opml = try OPMLParser.parse(contentsOf: fileURL)
 // Or using a parser instance
 let parser = try OPMLParser(contentsOf: fileURL)
 let opml = try parser.parse()
+// OPML(version: "2.0", title: Optional("Feedly"), ...
 ```
 
 **From Data**
@@ -92,10 +93,12 @@ let opml = try parser.parse()
 // Static convenience method
 let data = xmlString.data(using: .utf8)!
 let opml = try OPMLParser.parse(data: data)
+// OPML(version: "2.0", title: Optional("Feedly"), ...
 
 // Or using a parser instance
 let parser = try OPMLParser(data: data)
 let opml = try parser.parse()
+// OPML(version: "2.0", title: Optional("Feedly"), ...
 ```
 
 ### Creating and Generating OPML Files
@@ -165,7 +168,7 @@ This generates well-formatted XML output:
 
 Thanks to these projects:
 
-- https://github.com/pixel-foundry/opml
+https://github.com/pixel-foundry/opml
 
 ## License
 

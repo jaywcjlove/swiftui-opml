@@ -37,6 +37,9 @@
 OPML
 ===
 
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fjaywcjlove%2Fswift-opml%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/jaywcjlove/swift-opml)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fjaywcjlove%2Fswift-opml%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/jaywcjlove/swift-opml)
+
 **OPML** is a Swift package for parsing and generating OPML (Outline Processor Markup Language) files.
 
 This package provides a strongly typed, Swift-native implementation focused on the core [OPML 2.0 specification](https://opml.org/spec2.opml). The design intentionally omits rarely used fields related to application-specific state to keep the implementation simple, practical, and easy to use.
